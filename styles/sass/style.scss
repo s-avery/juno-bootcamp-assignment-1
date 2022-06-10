@@ -1,6 +1,4 @@
-@import "./setup", "./partials/variables", "./partials/header";
-
-body {
-    background-color: $primaryBGColor;
-}
-
+@import "./partials/setup";
+@import "./partials/variables";
+@import "./partials/header";
+@import "./partials/footer";
