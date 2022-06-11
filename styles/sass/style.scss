@@ -2,3 +2,38 @@
 @import "./partials/variables";
 @import "./partials/header";
 @import "./partials/footer";
+
+html {
+    font-family: "Montserrat";
+    background-color: $white;
+    color: $darkerGrey;
+}
+
+
+
+h2 {
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    color: $deepOrange;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: $white
+}
+
+button {
+    font-weight: bold;
+    font-style: 20px;
+    text-align: center;
+    text-height: 29px;
+}
+
+p {
+    font-family: "Catamaran";
+    font-style: 20px;
+    line-height: 29px;
+}

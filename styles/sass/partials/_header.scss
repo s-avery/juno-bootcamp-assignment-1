@@ -1,0 +1,35 @@
+header {
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        font-style: 20px;
+        text-align: right;
+        line-height: 29px;
+    }
+
+    nav li:hover {
+        color: $deepOrange;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 146.4px;
+        line-height: 120px;
+        color: $deepOrange;
+    }
+
+    .icons {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        color: $deepOrange;
+    }
+}
