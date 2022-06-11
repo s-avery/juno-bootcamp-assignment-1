@@ -28,6 +28,16 @@ main {
     .desserts {
         grid-area: desserts;
         background-color: $greyBackground;
+        display: flex;
+        padding: 5%;
+
+        .textWrapper {
+            margin-left: 40px;
+        }
+
+        button {
+            background-color: $greyBackground;
+        }
     }
 
     // *TEXT AREAS
@@ -40,18 +50,16 @@ main {
 
     .newFood,
     .fullExperience {
-        padding: 20% 15%;
+        padding: 10% 15%;
     }
 
     // *IMAGES
 
     .menu img {
         object-fit: cover;
+        height: 100%;
+        width: 100%;
     }
 
-    menu .wrapper div {
-        display: flex;
-        justify-content: center;
-    }
 
 }

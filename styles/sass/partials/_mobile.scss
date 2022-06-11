@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+
+    // *GRID TEMPLATING
+    .menu .wrapper {
+        display: grid;
+        grid-template-areas:
+            "burgerImg"
+            "newFood"
+            "breakfast"
+            "fullExperience"
+            "desserts";
+    }
+
+    .newFood {
+        grid-area: newFood;
+    }
+
+    .burgerImg {
+        grid-area: burgerImg;
+    }
+
+    .breakfast {
+        grid-area: breakfast;
+    }
+
+    .fullExperience {
+        grid-area: fullExperience;
+    }
+
+    .desserts {
+        grid-area: desserts;
+    }
+}
