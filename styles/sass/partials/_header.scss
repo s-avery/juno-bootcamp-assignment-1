@@ -1,12 +1,15 @@
 header {
     nav ul {
         margin: 0;
-        padding: 0;
+        padding: 1% 40%;
         list-style: none;
         display: flex;
         font-style: 20px;
         text-align: right;
         line-height: 29px;
+        display: flex;
+        justify-content: space-around;
+        font-weight: bold;
     }
 
     nav li:hover {
@@ -19,17 +22,19 @@ header {
     }
 
     h1 {
-        font-size: 146.4px;
+        font-size: 7.32rem;
         line-height: 120px;
         color: $deepOrange;
     }
 
     .icons {
-        margin: 0;
-        padding: 0;
+        margin: 3%;
         list-style: none;
         display: flex;
         flex-direction: column;
         color: $deepOrange;
+        font-size: 2rem;
+        line-height: 2.49rem;
+        text-align: center;
     }
 }
