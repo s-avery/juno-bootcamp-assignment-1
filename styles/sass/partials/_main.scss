@@ -1,0 +1,30 @@
+main {
+    .menu .wrapper {
+        display: grid;
+        grid-template-areas:
+            "newFood burgerImg"
+            "breakfast fullExperience"
+            "desserts desserts";
+    }
+
+    .newFood {
+        grid-area: newFood;
+    }
+
+    .burgerImg {
+        grid-area: burgerImg;
+    }
+
+    .breakfast {
+        grid-area: breakfast;
+    }
+
+    .fullExperience {
+        grid-area: fullExperience;
+    }
+
+    .desserts {
+        grid-area: desserts;
+        background-color: $greyBackground;
+    }
+}

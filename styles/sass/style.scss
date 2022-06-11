@@ -2,6 +2,7 @@
 @import "./partials/variables";
 @import "./partials/header";
 @import "./partials/footer";
+@import "./partials/main";
 
 html {
     font-family: "Montserrat";
@@ -11,12 +12,7 @@ html {
 
 
 
-h2 {
-    font-weight: bold;
-    font-size: 42px;
-    text-align: center;
-    color: $deepOrange;
-}
+
 
 h3 {
     font-weight: bold;

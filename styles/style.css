@@ -262,17 +262,31 @@ header .icons {
   color: #E75605;
 }
 
+main .menu .wrapper {
+  display: grid;
+  grid-template-areas: "newFood burgerImg" "breakfast fullExperience" "desserts desserts";
+}
+main .newFood {
+  grid-area: newFood;
+}
+main .burgerImg {
+  grid-area: burgerImg;
+}
+main .breakfast {
+  grid-area: breakfast;
+}
+main .fullExperience {
+  grid-area: fullExperience;
+}
+main .desserts {
+  grid-area: desserts;
+  background-color: rgba(31, 32, 34, 0.07);
+}
+
 html {
   font-family: "Montserrat";
   background-color: #FFF;
   color: #1F2022;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 42px;
-  text-align: center;
-  color: #E75605;
 }
 
 h3 {
