@@ -1,4 +1,6 @@
 main {
+
+    //*GRID TEMPLATING
     .menu .wrapper {
         display: grid;
         grid-template-areas:
@@ -27,4 +29,29 @@ main {
         grid-area: desserts;
         background-color: $greyBackground;
     }
+
+    // *TEXT AREAS
+    h2 {
+        font-weight: bold;
+        font-size: 42px;
+        // text-align: center;
+        color: $deepOrange;
+    }
+
+    .newFood,
+    .fullExperience {
+        padding: 20% 15%;
+    }
+
+    // *IMAGES
+
+    .menu img {
+        object-fit: cover;
+    }
+
+    menu .wrapper div {
+        display: flex;
+        justify-content: center;
+    }
+
 }

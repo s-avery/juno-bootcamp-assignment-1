@@ -25,7 +25,12 @@ button {
     font-weight: bold;
     font-style: 20px;
     text-align: center;
-    text-height: 29px;
+    line-height: 29px;
+    border: 4px solid $deepOrange;
+    background-color: $white;
+    color: $darkerGrey;
+    text-decoration: none;
+    padding: 10px;
 }
 
 p {

@@ -282,6 +282,27 @@ main .desserts {
   grid-area: desserts;
   background-color: rgba(31, 32, 34, 0.07);
 }
+main h2 {
+  font-weight: bold;
+  font-size: 42px;
+  color: #E75605;
+}
+main .newFood,
+main .fullExperience {
+  padding: 20% 15%;
+}
+main .menu img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main menu .wrapper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 html {
   font-family: "Montserrat";
@@ -300,7 +321,12 @@ button {
   font-weight: bold;
   font-style: 20px;
   text-align: center;
-  text-height: 29px;
+  line-height: 29px;
+  border: 4px solid #E75605;
+  background-color: #FFF;
+  color: #1F2022;
+  text-decoration: none;
+  padding: 10px;
 }
 
 p {
