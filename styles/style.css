@@ -221,6 +221,63 @@ template {
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  header .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header h1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: right;
+    margin: 0 5vw;
+  }
+  header img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    position: relative;
+    left: -200px;
+  }
+  header .icons {
+    position: absolute;
+    left: -999px;
+    visibility: hidden;
+    display: none;
+  }
+
+  .menu .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "burgerImg" "newFood" "breakfast" "fullExperience" "desserts";
+  }
+
+  .newFood {
+    grid-area: newFood;
+  }
+
+  .burgerImg {
+    grid-area: burgerImg;
+  }
+
+  .breakfast {
+    grid-area: breakfast;
+  }
+
+  .fullExperience {
+    grid-area: fullExperience;
+  }
+
+  .desserts {
+    grid-area: desserts;
+  }
+}
 header nav ul {
   margin: 0;
   padding: 1% 40%;
@@ -246,6 +303,8 @@ header .wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
 }
 header h1 {
   font-size: 7.32rem;

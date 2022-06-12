@@ -1,8 +1,34 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+    header {
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            order: 1;
+            text-align: right;
+            margin: 0 5vw;
+        }
+
+        img {
+            order: 2;
+            position: relative;
+            left: -200px;
+        }
+
+        .icons {
+            position: absolute;
+            left: -999px;
+            visibility: hidden;
+            display: none;
+        }
+    }
 
     // *GRID TEMPLATING
     .menu .wrapper {
         display: grid;
+        grid-template-columns: 1fr;
         grid-template-areas:
             "burgerImg"
             "newFood"
@@ -10,6 +36,12 @@
             "fullExperience"
             "desserts";
     }
+
+    .newFood,
+    .burgerImg,
+    .breakfast,
+    .fullExperience,
+    .desserts {}
 
     .newFood {
         grid-area: newFood;
@@ -30,4 +62,5 @@
     .desserts {
         grid-area: desserts;
     }
+
 }
