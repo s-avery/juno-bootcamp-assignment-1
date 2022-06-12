@@ -221,7 +221,17 @@ template {
   overflow: hidden;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 779px) {
+  header nav ul {
+    visibility: hidden;
+  }
+  header nav i {
+    visibility: unset;
+    font-size: 3rem;
+    position: absolute;
+    top: 2vw;
+    right: 4vw;
+  }
   header .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -236,7 +246,7 @@ template {
         -ms-flex-order: 1;
             order: 1;
     text-align: right;
-    margin: 0 5vw;
+    margin: 6vw 5vw 0 0;
   }
   header img {
     -webkit-box-ordinal-group: 3;
@@ -276,6 +286,11 @@ template {
 
   .desserts {
     grid-area: desserts;
+  }
+}
+@media screen and (min-width: 780px) {
+  header nav i {
+    visibility: hidden;
   }
 }
 header nav ul {
@@ -327,9 +342,11 @@ header .icons {
   text-align: center;
 }
 
-main .menu .wrapper {
-  display: grid;
-  grid-template-areas: "newFood burgerImg" "breakfast fullExperience" "desserts desserts";
+@media screen and (min-width: 780px) {
+  main .menu .wrapper {
+    display: grid;
+    grid-template-areas: "newFood burgerImg" "breakfast fullExperience" "desserts desserts";
+  }
 }
 main .newFood {
   grid-area: newFood;
@@ -349,10 +366,10 @@ main .desserts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5%;
+  padding: 5vw;
 }
 main .desserts .textWrapper {
-  margin-left: 40px;
+  margin-left: 3vw;
 }
 main .desserts button {
   background-color: rgba(31, 32, 34, 0.07);
@@ -368,7 +385,7 @@ main h2 {
 }
 main .newFood,
 main .fullExperience {
-  padding: 10% 15%;
+  padding: 10vw 7vw;
 }
 main .menu img {
   -o-object-fit: cover;

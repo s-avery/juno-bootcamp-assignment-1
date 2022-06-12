@@ -1,12 +1,14 @@
 main {
 
     //*GRID TEMPLATING
-    .menu .wrapper {
-        display: grid;
-        grid-template-areas:
-            "newFood burgerImg"
-            "breakfast fullExperience"
-            "desserts desserts";
+    @media screen and (min-width:780px) {
+        .menu .wrapper {
+            display: grid;
+            grid-template-areas:
+                "newFood burgerImg"
+                "breakfast fullExperience"
+                "desserts desserts";
+        }
     }
 
     .newFood {
@@ -29,10 +31,10 @@ main {
         grid-area: desserts;
         background-color: $greyBackground;
         display: flex;
-        padding: 5%;
+        padding: 5vw;
 
         .textWrapper {
-            margin-left: 40px;
+            margin-left: 3vw;
         }
 
         button {
@@ -55,7 +57,7 @@ main {
 
     .newFood,
     .fullExperience {
-        padding: 10% 15%;
+        padding: 10vw 7vw;
     }
 
     // *IMAGES

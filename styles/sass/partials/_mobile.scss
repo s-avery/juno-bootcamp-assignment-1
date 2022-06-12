@@ -1,5 +1,17 @@
-@media (max-width: 767px) {
+@media (max-width: 779px) {
     header {
+        nav ul {
+            visibility: hidden;
+        }
+
+        nav i {
+            visibility: unset;
+            font-size: 3rem;
+            position: absolute;
+            top: 2vw;
+            right: 4vw;
+        }
+
         .wrapper {
             display: flex;
             flex-direction: column;
@@ -8,7 +20,7 @@
         h1 {
             order: 1;
             text-align: right;
-            margin: 0 5vw;
+            margin: 6vw 5vw 0 0;
         }
 
         img {

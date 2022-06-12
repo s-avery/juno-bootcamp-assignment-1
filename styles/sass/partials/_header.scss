@@ -1,4 +1,11 @@
 header {
+    @media screen and (min-width:780px) {
+        nav i {
+            visibility: hidden;
+        }
+
+    }
+
     nav ul {
         margin: 0;
         padding: 1% 40%;
