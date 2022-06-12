@@ -262,10 +262,22 @@ template {
     display: none;
   }
 
+  p {
+    font-size: 1.6rem;
+  }
+
   .menu .wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "burgerImg" "newFood" "breakfast" "fullExperience" "desserts";
+  }
+
+  .newFood,
+.burgerImg,
+.breakfast,
+.fullExperience,
+.desserts {
+    text-align: center;
   }
 
   .newFood {
@@ -286,6 +298,19 @@ template {
 
   .desserts {
     grid-area: desserts;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  img {
+    max-height: 420px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media screen and (min-width: 780px) {
@@ -300,9 +325,9 @@ header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-style: 20px;
+  font-size: 1rem;
   text-align: right;
-  line-height: 29px;
+  line-height: 1.45;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -323,7 +348,7 @@ header .wrapper {
 }
 header h1 {
   font-size: 7.32rem;
-  line-height: 120px;
+  line-height: 6rem;
   color: #E75605;
 }
 header .icons {
@@ -412,7 +437,7 @@ button {
   font-weight: bold;
   font-style: 1rem;
   text-align: center;
-  line-height: 1.45rem;
+  line-height: 1.45;
   border: 4px solid #E75605;
   background-color: #FFF;
   color: #1F2022;
@@ -428,5 +453,5 @@ button:hover {
 p {
   font-family: "Catamaran";
   font-style: 1rem;
-  line-height: 1.45rem;
+  line-height: 1.45;
 }

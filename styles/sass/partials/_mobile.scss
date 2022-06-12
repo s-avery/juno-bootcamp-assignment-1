@@ -37,6 +37,11 @@
         }
     }
 
+    // *MAIN
+    p {
+        font-size: 1.6rem;
+    }
+
     // *GRID TEMPLATING
     .menu .wrapper {
         display: grid;
@@ -53,7 +58,9 @@
     .burgerImg,
     .breakfast,
     .fullExperience,
-    .desserts {}
+    .desserts {
+        text-align: center;
+    }
 
     .newFood {
         grid-area: newFood;
@@ -73,6 +80,13 @@
 
     .desserts {
         grid-area: desserts;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        max-height: 420px;
+        object-fit: cover;
     }
 
 }

@@ -11,9 +11,9 @@ header {
         padding: 1% 40%;
         list-style: none;
         display: flex;
-        font-style: 20px;
+        font-size: 1rem;
         text-align: right;
-        line-height: 29px;
+        line-height: 1.45;
         display: flex;
         justify-content: space-around;
         font-weight: bold;
@@ -31,7 +31,7 @@ header {
 
     h1 {
         font-size: 7.32rem;
-        line-height: 120px;
+        line-height: 6rem;
         color: $deepOrange;
     }
 

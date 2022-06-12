@@ -27,7 +27,7 @@ button {
     font-weight: bold;
     font-style: 1rem;
     text-align: center;
-    line-height: 1.45rem;
+    line-height: 1.45;
     border: 4px solid $deepOrange;
     background-color: $white;
     color: $darkerGrey;
@@ -43,6 +43,6 @@ button:hover {
 p {
     font-family: "Catamaran";
     font-style: 1rem;
-    line-height: 1.45rem;
+    line-height: 1.45;
 }
 
