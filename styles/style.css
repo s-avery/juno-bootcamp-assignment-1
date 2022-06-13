@@ -393,8 +393,8 @@ main .desserts {
   display: flex;
   padding: 5vw;
 }
-main .desserts .textWrapper {
-  margin-left: 3vw;
+main .desserts .wrapper {
+  min-width: 25vw;
 }
 main .desserts button {
   background-color: rgba(31, 32, 34, 0.07);

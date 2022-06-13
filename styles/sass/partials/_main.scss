@@ -33,8 +33,8 @@ main {
         display: flex;
         padding: 5vw;
 
-        .textWrapper {
-            margin-left: 3vw;
+        .wrapper {
+            min-width: 25vw;
         }
 
         button {
@@ -45,6 +45,7 @@ main {
             background-color: $deepOrange;
             color: $white;
         }
+
     }
 
     // *TEXT AREAS
